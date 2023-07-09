@@ -1,0 +1,55 @@
+$color-primario: rgb(229,124,35);
+$color-secundario: rgb(232,170,66);
+$color-dark: rgb(2,84,100);
+$color-light: rgb(248, 241, 241);
+
+.footer-container{
+    text-align: center;
+    background-color: $color-primario;
+    padding:20px 0px;
+
+    &__icono{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    &__img{
+        height: 75px;
+        width: 75px;
+    }
+
+    &__texto{
+        &--bold{
+            display: none;
+        }
+    }
+
+    &__nav{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    &__item{
+        text-decoration: none;
+        color: white;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            color: $color-dark;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-container{
+        &__texto{
+            &--bold{
+                font-weight: bold;
+                display: inline-block;
+            }
+        }
+    }
+}

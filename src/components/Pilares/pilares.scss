@@ -1,0 +1,40 @@
+$color-primario: rgb(229,124,35);
+$color-secundario: rgb(232,170,66);
+$color-dark: rgb(2,84,100);
+$color-light: rgb(248, 241, 241);
+
+.pilares{
+    display: grid;
+    padding-top: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: rgb(2, 84, 100);
+
+    &__pilar{
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding-bottom:16px;
+    }
+
+    &__texto{
+        margin-bottom: 8px;
+    }
+
+    &__icono{
+        color: white;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            color: $color-primario;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    .pilares{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+}
