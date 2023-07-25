@@ -29,7 +29,7 @@ export function Slider({  }) {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="src\assets\reparaciones.jpg"
+                src="/reparaciones.jpg"
                 class="carousel__img d-block"
                 alt="reparaciones"
               />
@@ -42,7 +42,7 @@ export function Slider({  }) {
             </div>
             <div class="carousel-item">
               <img
-                src="src\assets\pintura.webp"
+                src="/pintura.webp"
                 class="carousel__img d-block"
                 alt="pintura"
               />
@@ -55,7 +55,7 @@ export function Slider({  }) {
             </div>
             <div class="carousel-item">
               <img
-                src="src\assets\limpieza.jpg"
+                src="/limpieza.jpg"
                 class="carousel__img d-block"
                 alt="limpieza"
               />

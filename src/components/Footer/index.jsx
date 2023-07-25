@@ -6,7 +6,7 @@ export function Footer({items, title}) {
       <div class="footer-container__icono">
         <img
           class="footer-container__img"
-          src="src\assets\logo.png"
+          src="/logo.png"
           alt="Logo"
         />
         <span class="footer-container__texto footer-container__texto--bold">
