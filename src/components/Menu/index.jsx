@@ -5,7 +5,7 @@ export function Menu({items, title}) {
       <a href="/" class="header-container__logo">
         <img
           class="header-container__img"
-          src="/logo.png"
+          src="/tarea-9-frontend/logo.png"
           alt="Logo"
         />
         <span class="header-container__texto">{title}</span>
